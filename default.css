@@ -352,6 +352,54 @@ th[scope="col"] {
 	border: thin solid #000000;
 }
 
+#content #cupcakemenutable table {
+	width: 90%;
+	height: 345px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: thin solid #000000;
+}
+
+tbody tr .cupcake {
+	text-align: center;
+}
+
+#page #content #cupcakemenutable {
+	border-top: medium solid #DDBE88;
+}
+
+#page #content #seasonmenutable {
+	border-top: medium solid #DDBE88;
+	border-bottom: medium solid #DDBE88;
+}
+
+tbody tr .cupcake {
+	border-style: none;
+	text-align: center;
+}
+
+#janmenu, #febmenu, #marmenu, #aprmenu, #maymenu, #junmenu, #julmenu, #augmenu, #sepmenu, #octmenu, #novmenu, #decmenu {
+	width: 355px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 15em;
+	display: inline-block;
+}
+
+#janmenu p, #febmenu p, #marmenu p, #aprmenu p, #maymenu p, #junmenu p, #julmenu p, #augmenu p, #sepmenu p, #octmenu p, #novmenu p, #decmenu p {
+	line-height: 1.5em;
+	
+}
+
+#seasonmenutable #seasonmenu p {
+	line-height: 1em;
+}
+
+#content #cupcakemenutable #cupcakemenu p {
+	line-height: 1em;
+}
+
 #navlist li
 {
 	list-style-type: none;
