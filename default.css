@@ -1,0 +1,325 @@
+#cartwrapper{
+    overflow:auto;
+}
+
+#cart{
+    float:right;
+    cursor:pointer;
+}
+
+#productContainer {
+	padding: 50px;
+	text-align: center;
+}
+
+input[type=number]{
+    width: 80px;
+} 
+
+div[class*='productbox'] {
+	display: inline-block;
+	width: 32%;
+    background-color:#ffffff;
+	padding:10px;
+	margin:5px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #999;
+}
+
+div[class*='producttitle'] {
+    font-weight:bold;
+	padding:5px 0 5px 0;
+}
+
+div[class*='productdesc'] {
+	height: 6em;
+	text-align: center;
+	border-top:2px solid #dadada;
+	padding:10px;
+}
+
+div[class*='productprice'] {
+	height: 2em;
+}
+
+.text-center
+{
+	text-decoration: none;
+	font-family: 'Satisfy', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 3em;
+	font-weight: 500;
+	color: #000000;
+}
+body
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url(images/background.png);
+	background-color: #6E9E9C;
+	font: 100% Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #000000;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	text-transform: uppercase;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #000000;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+a
+{
+	color: #860659;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #1A7372;
+}
+
+a img
+{
+	border: none;
+}
+
+img.border
+{
+	border: thin solid #71A09E;
+}
+
+img.alignleft
+{
+	float: left;
+	margin-right: 30px;
+	width:130px;
+	height:130px;
+}
+
+img.alignright
+{
+	float: right;
+}
+
+img.aligncenter
+{
+	margin: 0px auto;
+}
+
+.image-style img
+{
+	border-radius: 30px 0px 0px 0px;
+	width:725px;
+	height:300px;
+}
+
+hr
+{
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper
+{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.container
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+/** LOGO */
+
+#logo h1, #logo p
+{
+	margin: 0px;
+	line-height: normal;
+}
+
+#logo h1 a
+{
+	padding-left: 30px;
+	text-decoration: none;
+	font-family: 'Satisfy', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 2.20em;
+	font-weight: 700;
+	color: #000000;
+}
+
+/** CONTACT FORM */
+
+textarea {
+    resize: none;
+}
+
+#content #box2 #contactform {
+	border: medium solid #759F9E;
+}
+
+tbody tr .contact {
+	border-style: none;
+}
+
+/** NAVIGATION MENU */
+
+#menu ul
+{
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li
+{
+	padding: 0px 0px 20px 0px;
+}
+
+#menu a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 1.50em Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover
+{
+	text-decoration: underline;
+}
+
+/** PAGE */
+
+#page
+{
+	position: relative;
+}
+
+/** CONTENT */
+
+#content
+{
+	position: absolute;
+	right: 10px;
+	width: 725px;
+	padding: 10px 10px 40px 10px;
+	background-color: #FDFDFA;
+	box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255,0.50);
+	border-radius: 40px 0px 40px 0px;
+}
+
+#content h2
+{
+	display: block;
+	padding: 0px 0px 20px 0px;
+	text-decoration: none;
+	font-size: 1.50em;
+	color: #000000;
+	font-weight: 400;
+}
+
+#content #box1 .title {
+	font-size: 2.5em;
+}
+
+
+#content .subtitle
+{
+	padding: 0px 0px 20px 0px;
+	font-size: 2.00em;
+	font-weight: 400;
+}
+
+#content .post
+{
+	padding: 40px;
+}
+
+#box2 
+{
+	margin: 0px 40px;
+	padding: 40px 0px;
+	border-top: medium solid #DDBE88;
+	border-bottom: medium solid #DDBE88;
+}
+
+#news 
+{
+	margin: 0px 40px;
+	padding: 40px 0px;
+	border-top: medium solid #DDBE88;
+	border-bottom: medium solid #DDBE88;
+}
+
+#content #news p {
+	margin-left: 11em;
+	text-align: left;
+}
+
+/** SIDEBAR */
+
+#sidebar
+{
+	position: absolute;
+	width: 270px;
+	left: 10px;
+	top: 50px;
+	font-weight: bold;
+}
+
+.box
+{
+	overflow: hidden;
+	padding: 40px 40px;
+	background-color: #2D393B;
+	box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255,0.90);
+	border-radius: 0px 40px 0px 40px;
+}
+
+/* Footer */
+
+#footer
+{
+	margin: 0px 40px;
+}
+
+#footer p
+{
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+}
+
+#page #content #footer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	top: 99%;
+	font-size: 0.8em;
+}
+.printhead a {
+	visibility: hidden;
+}
