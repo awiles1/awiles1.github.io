@@ -43,6 +43,12 @@ div[class*='productprice'] {
 	font-weight: 500;
 	color: #000000;
 }
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
 body
 {
 	margin-top: 20px;
@@ -312,6 +318,49 @@ tbody tr .contact {
 	top: 99%;
 	font-size: 0.8em;
 }
+
+/* Menu & Tables */
+
+.menuhead {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+#page #content #cupcakemenutable {
+	text-align: center;
+	font-size: 1em;
+	line-height: 0%;
+}
+
+table caption {
+	visibility: hidden;
+}
+
+#page #content #seasonmenutable {
+	text-align: center;
+	font-size: 1em;
+	line-height: 0%;
+}
+
+th[scope="row"] {
+	text-align: left;
+	font-weight: normal;
+	border: thin solid #000000;
+}
+
+th[scope="col"] {
+	border: thin solid #000000;
+}
+
+#navlist li
+{
+	list-style-type: none;
+	padding-right: 0.5em;
+	display: inline;
+	text-align: center;
+	padding-left: 0.5em;
+}
+
 .printhead a {
 	visibility: hidden;
 }
