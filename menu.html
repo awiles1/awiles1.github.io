@@ -15,13 +15,13 @@ Released   : 20130902
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Bakery Fakery | Menu</title>
 <meta name="description" content="Fakery Bakery Cupcake and Seasonal Menus." />
-<link rel="stylesheet" href="http://www.csit.parkland.edu/~awiles1/175Final/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 <link href='http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,600,700' rel='stylesheet' type='text/css' />
 </head>
 <body>
-<h1 class="printhead"><a href="home.html">Bakery Fakery</a></h1>
+
 <div id="wrapper"> <!-- Start of Wrapper -->
 	<div id="page" class="container"> <!-- Start of Container -->
 		<div id="content"> <!-- Start of Content -->
@@ -30,12 +30,10 @@ Released   : 20130902
 				<p>All Bakery Fakery items are made from scratch using only the best ingredients, including Belgian chocolates and cocoa powders, creamy salt-free butters, pure extracts and oils, and fresh organic dairy products and eggs sourced from local farms.</p>
 		  <p>All items are made on equipment that processes milk, eggs, peanuts, wheat, and tree nuts.</p>
 		  </div> <!-- End of Box1 -->
-
 <h1 class="text-center container-fluid">Cupcake Menu</h1>
 <div id="productContainer">
 	<div id="cart" class="badge my-cart-badge my-cart-icon""></div>
 </div>
-
 <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
 <script type="text/javascript">
   
@@ -67,7 +65,7 @@ Released   : 20130902
 <script type="text/javascript" src="js/jquery.mycart.js"></script>
 <script type="text/javascript" src="js/products.js"></script>
 
-<div class="modal fade" id="my-cart-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button><h4 class="modal-title" id="myModalLabel">My Cart</h4></div><div class="modal-body"><table class="table table-hover table-responsive" id="my-cart-table"><tbody><tr style="color: black"><td></td><td><strong>Total (including discount)</strong></td><td></td><td></td><td></td></tr></tbody></table></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button><button type="button" class="btn btn-primary" id="checkout-my-cart">Checkout</button></div></div></div></div>
+<div class="modal fade" id="my-cart-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button><h4 class="modal-title" id="myModalLabel">My Cart</h4></div><div class="modal-body"><table class="table table-hover table-responsive" id="my-cart-table"><tbody><tr style="color: black"><td></td><td><strong>Total (including discount)</strong></td><td></td><td></td><td><strong id="my-cart-discount-price">$0</strong></td><td></td></tr></tbody></table></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button><button type="button" class="btn btn-primary" id="checkout-my-cart">Checkout</button></div></div></div></div>
 
 
 		  <div id="footer"> <!-- Start of Footer -->
