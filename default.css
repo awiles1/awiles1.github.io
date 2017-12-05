@@ -8,7 +8,6 @@
 }
 
 #productContainer {
-	padding: 50px;
 	text-align: center;
 }
 
@@ -16,6 +15,7 @@ div[class*='productbox'] {
 	display: inline-block;
 	width: 32%;
 	padding:10px;
+	background-color: #FDFDFA;
 	margin:5px;
 	-webkit-box-shadow: 0 8px 6px -6px  #999;
 	   -moz-box-shadow: 0 8px 6px -6px  #999;
