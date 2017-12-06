@@ -59,7 +59,8 @@ Released   : 20130902
       classCartBadge: 'my-cart-badge',
       checkoutCart: function(products) {
         $.each(products, function(){
-          console.log(this);
+        	var total = (e.quantity * e.price);
+          console.log("You ordered " + e.name + "for a total of" + total);
         });
       },
       clickOnAddToCart: function($addTocart){
