@@ -17,11 +17,7 @@
             clickOnAddToCart: function($addTocart) {},
             afterAddOnCart: function(products, totalPrice, totalQuantity) {},
             clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {},
-            checkoutCart: function(products, totalPrice, totalQuantity) {
-        var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
-        alert(checkoutString)
-        console.log("checking out", products, totalPrice, totalQuantity);
-      },
+            checkoutCart: function(products, totalPrice, totalQuantity) {},
             getDiscountPrice: function(products, totalPrice, totalQuantity) {
                 return null
             }
@@ -254,7 +250,6 @@
         });
         $(document).on('click', "." + classCheckoutCart, function() {
             var products = ProductManager.getAllProducts();
-            console.log(products);
             if (!products.length) {
                 $("#" + idEmptyCartMessage).fadeTo('fast', 0.5).fadeTo('fast', 1.0);
                 return
