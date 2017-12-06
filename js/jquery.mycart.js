@@ -17,7 +17,15 @@
             clickOnAddToCart: function($addTocart) {},
             afterAddOnCart: function(products, totalPrice, totalQuantity) {},
             clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {},
-            checkoutCart: function(products, totalPrice, totalQuantity) {},
+            checkoutCart: function(products, totalPrice, totalQuantity) {
+        var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
+        checkoutString += "\n \t name \t summary \t price \t quantity";
+        $.each(products, function(){
+          checkoutString += (" \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity ");
+        });
+        alert(checkoutString)
+        console.log("checking out", products, totalPrice, totalQuantity);
+      },
             getDiscountPrice: function(products, totalPrice, totalQuantity) {
                 return null
             }
