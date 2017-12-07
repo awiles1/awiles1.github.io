@@ -340,6 +340,7 @@ h3 {
 
 #mapdetail{
 	float: left;
+	text-align: left;
 }
 
 #map {
