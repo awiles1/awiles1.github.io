@@ -349,4 +349,6 @@ h3 {
 
 #mapdiv {
     height: 255px;
+    display: block;
+    text-align: center;
 }
