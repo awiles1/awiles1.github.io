@@ -340,7 +340,6 @@ h3 {
 
 #mapdetail{
 	float: left;
-	text-align: left;
 }
 
 #map {
@@ -350,6 +349,4 @@ h3 {
 
 #mapdiv {
     height: 255px;
-    display: block;
-    text-align: center;
 }
