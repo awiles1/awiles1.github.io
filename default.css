@@ -1,7 +1,16 @@
+#loading {
+   background-color: #fff;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: 999;
+   text-align:center;
+}
+
 #shopcart {
-    position: -webkit-sticky;  // required for Safari
+    position: -webkit-sticky;
     position: sticky;
-    top: 0; // required as well.
+    top: 0;
 }
 
 #cartwrapper{
@@ -32,7 +41,6 @@ div[class*='producttitle'] {
 
 div[class*='productdesc'] {
 	height: 6em;
-	text-align: center;
 	border-top:2px solid #dadada;
 	padding:10px;
 }
@@ -49,12 +57,6 @@ div[class*='productprice'] {
 	font-weight: 500;
 	color: #000000;
 }
-
-/*
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-*/
 
 body
 {
@@ -138,8 +140,6 @@ hr
 	display: none;
 }
 
-/** WRAPPER */
-
 #wrapper
 {
 	position: relative;
@@ -157,8 +157,6 @@ hr
 	clear: both;
 }
 
-/** LOGO */
-
 #logo h1, #logo p
 {
 	margin: 0px;
@@ -174,22 +172,6 @@ hr
 	font-weight: 700;
 	color: #000000;
 }
-
-/** CONTACT FORM */
-
-textarea {
-    resize: none;
-}
-
-#content #box2 #contactform {
-	border: medium solid #759F9E;
-}
-
-tbody tr .contact {
-	border-style: none;
-}
-
-/** NAVIGATION MENU */
 
 #menu ul
 {
@@ -217,14 +199,10 @@ tbody tr .contact {
 	text-decoration: underline;
 }
 
-/** PAGE */
-
 #page
 {
 	position: relative;
 }
-
-/** CONTENT */
 
 #content
 {
@@ -267,25 +245,9 @@ tbody tr .contact {
 #box2 
 {
 	margin: 0px 40px;
-	padding: 40px 0px;
 	border-top: medium solid #DDBE88;
 	border-bottom: medium solid #DDBE88;
 }
-
-#news 
-{
-	margin: 0px 40px;
-	padding: 40px 0px;
-	border-top: medium solid #DDBE88;
-	border-bottom: medium solid #DDBE88;
-}
-
-#content #news p {
-	margin-left: 11em;
-	text-align: left;
-}
-
-/** SIDEBAR */
 
 #sidebar
 {
@@ -304,8 +266,6 @@ tbody tr .contact {
 	box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255,0.90);
 	border-radius: 0px 40px 0px 40px;
 }
-
-/* Footer */
 
 #footer
 {
@@ -326,87 +286,6 @@ tbody tr .contact {
 	font-size: 0.8em;
 }
 
-/* Menu & Tables */
-
-.menuhead {
-	font-size: 1.8em;
-	text-align: center;
-}
-
-#page #content #cupcakemenutable {
-	text-align: center;
-	font-size: 1em;
-	line-height: 0%;
-}
-
-table caption {
-	visibility: hidden;
-}
-
-#page #content #seasonmenutable {
-	text-align: center;
-	font-size: 1em;
-	line-height: 0%;
-}
-
-th[scope="row"] {
-	text-align: left;
-	font-weight: normal;
-	border: thin solid #000000;
-}
-
-th[scope="col"] {
-	border: thin solid #000000;
-}
-
-#content #cupcakemenutable table {
-	width: 90%;
-	height: 345px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	border: thin solid #000000;
-}
-
-tbody tr .cupcake {
-	text-align: center;
-}
-
-#page #content #cupcakemenutable {
-	border-top: medium solid #DDBE88;
-}
-
-#page #content #seasonmenutable {
-	border-top: medium solid #DDBE88;
-	border-bottom: medium solid #DDBE88;
-}
-
-tbody tr .cupcake {
-	border-style: none;
-	text-align: center;
-}
-
-#janmenu, #febmenu, #marmenu, #aprmenu, #maymenu, #junmenu, #julmenu, #augmenu, #sepmenu, #octmenu, #novmenu, #decmenu {
-	width: 355px;
-	margin-left: auto;
-	margin-right: auto;
-	height: 15em;
-	display: inline-block;
-}
-
-#janmenu p, #febmenu p, #marmenu p, #aprmenu p, #maymenu p, #junmenu p, #julmenu p, #augmenu p, #sepmenu p, #octmenu p, #novmenu p, #decmenu p {
-	line-height: 1.5em;
-	
-}
-
-#seasonmenutable #seasonmenu p {
-	line-height: 1em;
-}
-
-#content #cupcakemenutable #cupcakemenu p {
-	line-height: 1em;
-}
-
 #navlist li
 {
 	list-style-type: none;
@@ -418,4 +297,52 @@ tbody tr .cupcake {
 
 .printhead a {
 	visibility: hidden;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+label {
+    float: left;
+    width: 11em;
+}
+label.error {
+    display:block;
+    width:100%;
+    color: red;
+    font-size: 85%;
+}
+input {
+    width: 10em;
+}
+#subject {
+    margin-bottom: .5em;
+    resize: none;
+}
+span {
+    color: red;
+}
+#join, #reset {
+    width: 7.5em;
+}
+h3 {
+    text-align: center;
+}
+.buttonhold {
+    text-align: center;
+}
+.formcontainer {
+    width: 100%;
+}
+
+#mapdetail{
+	float: left;
+}
+
+#map {
+	float: right;
+	background-color: grey;
 }

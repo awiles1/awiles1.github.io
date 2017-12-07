@@ -1,16 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-
-Name       : Flourish 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130902
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Bakery Fakery | Contact Us</title>
@@ -18,7 +7,6 @@ Released   : 20130902
 <link href='https://fonts.googleapis.com/css?family=Satisfy|Fjalla+One|Open+Sans:400,600,700' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="bootstrap.min.css">
 <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/fonts/flaticon.css">
 <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
@@ -28,23 +16,80 @@ Released   : 20130902
 		<div id="content">  <!-- Start of Content -->
         <a class="image-style"><img src="images/icedbundt.jpg" alt="Bakery Fakery iced bundt cake." /></a>
 			<div id="box1" class="post"> <!-- Start of Box1 -->
-			  <h2 class="title">Contact Us</h2>
-		      <p>Stop by for delicious desserts any time during our open hours:</p>
+			  <h2 class="title">Contact Details</h2>
+                <br />
+                <div id="mapdetail"><p>Address: 12 E. Washington St, Champaign IL, 61820<br />
+               	Phone: <a href="tel:(555)555-5555">(555) 555-5555</a><br />
+                Email: <a href="mailto:contact@bakeryfakery.com">Contact&#64;bakeryfakery.com</a>
+            	</p></div><div id="map" style="width:250px;height:225px"></div>
+            	<br />
+		      <h4>Open Hours:</h4>
 		      <ul>
-		        <li>Monday-Thursday from 9am to 7pm</li>
-		        <li>Friday-Saturday from 11am to 11pm</li>
-		        <li>Sunday from 1-8pm</li>
+		        <li>Monday-Thursday : 9am to 7pm</li>
+		        <li>Friday-Saturday : 11am to 11pm</li>
+		        <li>Closed on Sunday</li>
               </ul>
                 <br />
+<<<<<<< HEAD
+		      	<p>To inquire about special events or large volume orders contact our catering devision. <br />Email: <a href="mailto:catering@bakeryfakery.com">Catering&#64;bakeryfakery.com</a><br />
+		      	Phone: <a href="tel:(202)555-0160">(202) 555-0160</a> 
+		      	</p>
+          <p>Please feel free to contact us should you require any information, a catering consultation, or if you wish to be added to our mailing list. We look forward to assisting you in any way we can and we greatly value all feedback.</p>
+=======
                 <p>Address: 12 E. Washington St, Champaign IL, 61820<br />
                	Phone: <a href="tel:(202)555-0171">(202) 555-0171</a><br />
                 Email: <a href="mailto:contact@bakeryfakery.com">contact&#64;bakeryfakery.com</a></p>
 		      <p>For more information or to inquire about special events or large volume orders, please contact our catering manager by email at <a href="mailto:catering@bakeryfakery.com">catering&#64;bakeryfakery.com</a> or by phone at <a href="tel:(202)555-0160">(202) 555-0160</a></p>
-          <p>Please feel free to contact us should you require any information, a catering consultation, or if you wish to be added to our mailing list. We look forward to assisting you in any way we can and we greatly value all feedback.</p>
+>>>>>>> 009dde9e9fd7a2a040e88dc418b6f502871657f0
 			</div> <!-- End of Box1 -->
 			<div id="box2"> <!-- Start of Box2 -->
+			<h3>Contact Form</h3>
+				<div class="formcontainer">
+				  <form id="email_form" name="email_form" action="success.html" method="get">
+				    <label for="fname">First Name</label>
+				    <input type="text" id="fname" name="firstname" placeholder="First Name"><br>
 
-      </div> <!-- End of Box2 -->
+				    <label for="lname">Last Name</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Last Name"><br>
+
+				    <label for="phone">Phone Number</label>
+				    <input type="text" id="phone" name="phone" placeholder="Phone Number"><br>
+				    
+				    <label for="email">Email Address</label>
+				    <input type="text" id="email" name="email" placeholder="Email Address"><br>
+
+				    <label for="subject">Subject</label>
+				    <textarea id="subject" name="subject" placeholder="Reason for contacting?" style="height:150px"></textarea><br>
+
+				    <div class="buttonhold">
+				    <input type="submit" value="Submit">
+				    <input type="reset" value="Reset">
+				    </div>
+				  </form>
+				</div>
+				    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+				    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+				    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+				    <script src="js/jquery.validate.min.js"></script>
+				    <script src="js/additional-methods.js"></script>
+				    <script src="js/email_list.js"></script>
+				    <script>
+				      function initMap() {
+				        var location = {lat: 40.071, lng: -88.243};
+				        var map = new google.maps.Map(document.getElementById('map'), {
+				          zoom: 4,
+				          center: location
+				        });
+				        var marker = new google.maps.Marker({
+				          position: location,
+				          map: map
+				        });
+				      }
+				    </script>
+    				<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiWRrY0oPtRzI4nY7QEws7sba-QNTlUJg&callback=initMap">
+    				</script>
+      		</div> <!-- End of Box2 -->
 			<div id="footer"> <!-- Start of Footer -->
 				<p>Copyright &#169; 2016 Ashley Wiles. All rights reserved.<br />
               Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
