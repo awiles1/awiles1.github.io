@@ -346,3 +346,7 @@ h3 {
 	float: right;
 	background-color: grey;
 }
+
+#mapdiv {
+    height: 255px;
+}
