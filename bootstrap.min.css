@@ -2365,11 +2365,12 @@ textarea.input-lg,select[multiple].input-lg {
 }
 .btn {
  display:inline-block;
+ background-color:#DDBE88;
  padding:6px 12px;
  margin-bottom:0;
- font-size:14px;
+ font-size:16px;
  font-weight:400;
- line-height:1.42857143;
+ line-height:1.5;
  text-align:center;
  white-space:nowrap;
  vertical-align:middle;
@@ -2389,7 +2390,7 @@ textarea.input-lg,select[multiple].input-lg {
 }
 .btn:hover,.btn:focus {
  color:#333;
- text-decoration:none
+ text-decoration:underline;
 }
 .btn:active,.btn.active {
  background-image:none;
