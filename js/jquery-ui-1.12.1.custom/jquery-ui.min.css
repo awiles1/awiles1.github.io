@@ -51,6 +51,11 @@
  font-size: 1.18em;
  color:#454545
 }
+.ui-state-focus {
+ border:1px solid #2D393B;
+ background:#DDBE88;
+ color:#454545
+}
 .ui-icon {
  width:16px;
  height:16px
