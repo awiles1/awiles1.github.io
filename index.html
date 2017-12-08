@@ -8,16 +8,51 @@
 <link rel="stylesheet" href="bootstrap.min.css">
 <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#tabs").tabs();
+        $("#tabs").accordion(
+            { 
+                event: "click",
+                heightStyle: "content",
+                collapsible: false 
+            });
+	});
+</script>
 </head>
 <body>
-<h1 class="printhead"><a href="home.html">Bakery Fakery</a></h1>
 <div id="wrapper"> <!-- Start of Wrapper -->
 	<div id="page" class="container"> <!-- Start of Page -->
 		<div id="content"> <!-- Start of Content --> 
         <a class="image-style"><img src="images/icedbundt.jpg" alt="Bakery Fakery iced bundt cake." /></a>
 			<div id="box1" class="post"> <!-- Start of Box1 -->
-				<h2 class="title">Welcome to Bakery Fakery</h2>
-				<p>Bakery Fakery is a small boutique bakery specializing in cupcakes and fresh seasonal baked goods made with quality ingredients. We are located in the vibrant downtown area of Champaign, Illinois.</p>
+				<h2 class="title text-center">Welcome to Bakery Fakery</h2>
+				<p>Bakery Fakery is a small boutique bakery specializing in cupcakes and fresh seasonal baked goods made with quality ingredients. We are located in the vibrant downtown area of Champaign, Illinois.</p><br>
+			<div id="news"> <!-- Start of News -->
+				<h3 class="title text-center">Bakery Fakery News</h3>
+	        <div id="tabs"> <!-- Start of Tabs -->
+	            <h3>Farmers Market Bound</h3>
+	            <div id="tabs-1">
+	            	<h3><em><img src="images/market.jpg" alt="Bakery Fakery farmers market stand." class="alignleft border" /></em></h3>
+	            	<p>Starting in early May of 2016 Bakery Fakery will be attending Urbana's Market at the Square. We will have our everyday cupcake flavors available as well a a selection of our seasonal items for purchase</p>
+	            </div>
+	            <h3>Cake Pops Now Available!</h3>
+	            <div id="tabs-2">
+	            	<h3><em><img src="images/cakepops.jpeg" alt="Bakery Fakery Cake Pops in Birthday Cake and Chocolate Flavors." class="alignleft border" /></em></h3>
+	                <p>Bakery Fakery cake pops come in a variety of flavors such as Vanilla, Chocolate, Red Velvet, Chocolate Peanut Butter, Birthday Cake, and German Chocolate Cake.</p>
+					<p>Other flavors can be ordered through our catering department to suit your event/function.</p>
+	            </div>
+	            <h3>Now Serving Macaroons</h3>
+	            <div id="tabs-3">
+	                <h3><em><img src="images/macaroonplate.jpg" alt="Bakery Fakery Macaroons in Strawberry, Limoncello and Matcha flavors." class="alignleft border" /></em></h3>
+					<p>Our fresh made macaroons are loved for their fun flavors! Our everyday flavors include Salted Caramel, Strawberry,  Vanilla, Chocolate, and Almond.</p>
+				  	<p>Our seasonal flavors include Raspberry, Limoncello,  Blackberry, and Matcha.</p>
+	            </div>
+	        </div> <!-- End of Tabs -->
+	        </div> <!-- End of News -->
 			</div> <!-- End of Box1 -->
 
 			<div id="footer"> <!-- Start of Footer -->
